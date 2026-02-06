@@ -13,7 +13,7 @@ function App(): React.JSX.Element {
             </p>
 
             <p>
-                This is Brian Tran, asdfasdfasdf!
+                This is Brian Tran, Hello World!
             </p>
         </div>
     );
