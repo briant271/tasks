@@ -73,8 +73,8 @@ export function toShortForm(question: Question): string {
 export function toMarkdown(question: Question): string {
     let initial: string = `# ${question.name}\n${question.body}`
     if (question.type === "multiple_choice_question") { 
-        for (let option in question.options) {
-            initial += `\n- ${question.options[option]}`
+        for (const option of question.options) {
+            initial += `\n- ${option}`
         }
     }
     return initial
