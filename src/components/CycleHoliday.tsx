@@ -29,7 +29,6 @@ export function CycleHoliday(): React.JSX.Element {
         const newHoliday = chronoNext[holiday];
         setHoliday(newHoliday);
     }
-
     return (
         <div>
             <Button onClick={changeAlpha}>Advance by Alphabet</Button>
